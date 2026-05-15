@@ -1,0 +1,34 @@
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\appsettings.Development.json
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\appsettings.json
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Asp.net Core WebAPI.staticwebassets.endpoints.json
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Asp.net Core WebAPI.exe
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Asp.net Core WebAPI.deps.json
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Asp.net Core WebAPI.runtimeconfig.json
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Asp.net Core WebAPI.dll
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Asp.net Core WebAPI.pdb
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Microsoft.OpenApi.dll
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\Asp.net Core WebAPI.csproj.AssemblyReference.cache
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\Asp.net Core WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\Asp.net Core WebAPI.AssemblyInfoInputs.cache
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\Asp.net Core WebAPI.AssemblyInfo.cs
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\Asp.net Core WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\Asp.net Core WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\Asp.net Core WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\rjimswa.dswa.cache.json
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\rjsmrazor.dswa.cache.json
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\rjsmcshtml.dswa.cache.json
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\scopedcss\bundle\Asp.net Core WebAPI.styles.css
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\staticwebassets.build.json
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\staticwebassets.build.json.cache
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\staticwebassets.development.json
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\staticwebassets.build.endpoints.json
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\swae.build.ex.cache
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\Asp.net .89D61FA5.Up2Date
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\Asp.net Core WebAPI.dll
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\refint\Asp.net Core WebAPI.dll
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\Asp.net Core WebAPI.pdb
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\Asp.net Core WebAPI.genruntimeconfig.cache
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\ref\Asp.net Core WebAPI.dll
