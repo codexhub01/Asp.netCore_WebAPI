@@ -32,3 +32,11 @@ C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0
 C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\Asp.net Core WebAPI.pdb
 C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\Asp.net Core WebAPI.genruntimeconfig.cache
 C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\ref\Asp.net Core WebAPI.dll
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\System.Net.Http.Formatting.dll
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\System.Web.Http.dll
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Newtonsoft.Json.dll
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Newtonsoft.Json.Bson.dll
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\mayan\Desktop\Asp.net Core WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\Asp.net Core WebAPI.sourcelink.json
