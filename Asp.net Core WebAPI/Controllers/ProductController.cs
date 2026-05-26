@@ -2,6 +2,7 @@
 
 namespace Asp.net_Core_WebAPI.Controllers
 {
+    //These both need to mentioned for api
     [ApiController]
     [Route("api/[controller]")]
     public class ProductController : ControllerBase
