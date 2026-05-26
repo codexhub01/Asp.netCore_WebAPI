@@ -9,7 +9,7 @@ namespace Asp.net_Core_WebAPI.Controllers
         [HttpGet]
         public IActionResult GetProducts()
         {
-            return Ok("Product returned from get method");
+            return Ok("Product returned from getproducts method");
         }
     }
 }
