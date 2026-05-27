@@ -1,3 +1,5 @@
+using Asp.net_Core_WebAPI;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -9,7 +11,7 @@ builder.Services.AddOpenApi();
 //Services need to used swagger
 builder.Services.AddEndpointsApiExplorer(); // generate edpoints
 builder.Services.AddSwaggerGen(); // generate swagger docs
-
+builder.Services.AddAutoMapper(typeof(MappingProfile));
 
 var app = builder.Build();
 
