@@ -8,6 +8,10 @@ namespace Asp.net_Core_WebAPI
             //to map we use CreateMap
             //CreateMap<User, UserDto>().ReverseMap();
             CreateMap<User, UserDto>();
+
+            //Before it creates first it checks , it recursively maps nested objects but both mapping should exist
+            CreateMap<Employee, EmployeeDto>();
+            CreateMap<Department, DepartmentDto>();
         }
     }
 }
