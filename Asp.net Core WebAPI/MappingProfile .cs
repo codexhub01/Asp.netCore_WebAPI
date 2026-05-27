@@ -12,6 +12,9 @@ namespace Asp.net_Core_WebAPI
             //Before it creates first it checks , it recursively maps nested objects but both mapping should exist
             CreateMap<Employee, EmployeeDto>();
             CreateMap<Department, DepartmentDto>();
+
+            //for mapping complex object with normal property
+            CreateMap<Employee , EmployeeDto>().ForMember(dest => dest.Department , opt=> opt.MapFrom(s=>s.Department.DepartmentName));
         }
     }
 }

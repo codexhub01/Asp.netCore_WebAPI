@@ -159,6 +159,15 @@ var orders = customer.Orders;\par
 {\pntext\f2\'B7\tab}Mapping autommatically happens internally only after using createmap()\par
 
 \pard\sa200\sl276\slmult1\par
+\b Lecture :- ( Mapping Complex Type to Primitive Type using AutoMapper in ASP.NET Core Web API )\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Complex object to primitive property which is known as flattening\par
+{\pntext\f2\'B7\tab}Basically frontend wants data in normal form , for that we do this\par
+{\pntext\f2\'B7\tab}How automapper knows to change from this ( Employee.Department.DepartmentName ) to ( EmployeeDto.DepartmentName ) , so for this we use formember() which is quite imp function\par
+{\pntext\f2\'B7\tab} CreateMap<Employee , EmployeeDto>().ForMember(dest => dest.Department , opt=> opt.MapFrom(s=>s.Department.DepartmentName));\par
+{\pntext\f2\'B7\tab}Flattening means nested objects convert into flat or simple structure\par
+
+\pard\sa200\sl276\slmult1\par
 \par
 \par
 \par
