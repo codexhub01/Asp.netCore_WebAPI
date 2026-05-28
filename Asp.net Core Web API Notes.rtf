@@ -173,6 +173,19 @@ var orders = customer.Orders;\par
 \pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 This means we add some kind of condition after formember() which is opt.condition(put conidition)\par
 
 \pard\sa200\sl276\slmult1\par
+\b Lecture :- ( Ignore Property Mapping using Automapper in ASP.NET Core Web API )\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 What if automapper maps everything automatically like password etc , then it become dangerous\par
+{\pntext\f2\'B7\tab}Ignore mapping tells automapper to skip a property during mapping\par
+
+\pard\sa200\sl276\slmult1 CreateMap<UserDto, User>()\par
+.ForMember(dest => dest.PasswordHash,\par
+opt => opt.Ignore());\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 .Ignore() :- dont map that specific property\par
+{\pntext\f2\'B7\tab}.Condition() :- only map if condition become true\par
+
+\pard\sa200\sl276\slmult1\par
 \par
 \par
 \par
