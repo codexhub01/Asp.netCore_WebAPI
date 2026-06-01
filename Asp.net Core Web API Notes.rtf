@@ -71,9 +71,19 @@ Response\par
 {\pntext\f2\'B7\tab}Install-Package Swashbuckle.AspNetCore ( main package ) with the help of which we can use anything services or middleware related to swagger\par
 
 \pard\sa200\sl276\slmult1\par
-\b Lecture :- ( Route Parameters and Query Strings in Routing )\par
+\b Lecture :- ( Routing in ASP.NET Core Web API )\par
 
-\pard\sa200\sl276\slmult1 Route Parameters :-\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 It's a process of incoming mapping request to specific controller action method\par
+{\pntext\f2\'B7\tab}Simple meaning routing decides which api method should run\par
+{\pntext\f2\'B7\tab}Types Of Routing :-\par
+
+\pard\sa200\sl276\slmult1\tab 1. Attribute Routing :- [Route] [HttpGet]\par
+\tab 2. Conventional Routing :- Central route configuration\par
+\tab 3. Http Method Routing\par
+\tab 4. Parametrized Routing :- [HttpGet("\{id\}")]\par
+\par
+\b Lecture :- ( Route Parameters and Query Strings in Routing )\par
+Route Parameters :-\par
 
 \pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 route parameters are values passed as a part of the url path\par
 {\pntext\f2\'B7\tab}Example :- /api/employees/101 ( Single route parameter )\par
@@ -105,36 +115,7 @@ public IActionResult GetEmployees(\par
 \{\par
     return Ok();\par
 \}\b\par
-\b0\par
-
-\pard\sa200\sl276\slmult1\par
 \par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\b Lecture :- ( Routing in ASP.NET Core Web API )\par
-
-\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 It's a process of incoming mapping request to specific controller action method\par
-{\pntext\f2\'B7\tab}Simple meaning routing decides which api method should run\par
-{\pntext\f2\'B7\tab}Types Of Routing :-\par
-
-\pard\sa200\sl276\slmult1\tab 1. Attribute Routing :- [Route] [HttpGet]\par
-\tab 2. Conventional Routing :- Central route configuration\par
-\tab 3. Http Method Routing\par
-\tab 4. Parametrized Routing :- [HttpGet("\{id\}")]\par
-\b\par
 Lecture :- ( HTTP Status Codes in ASP.NET Core Web API )\par
 
 \pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Standard response codes returned by server to indicate request result\par
