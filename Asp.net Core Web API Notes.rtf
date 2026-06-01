@@ -171,6 +171,49 @@ var orders = customer.Orders;\par
        .Collection(c => c.Orders)\par
        .Load()\par
 \par
+\b Lecture :- ( Default Conventions in EF Core )\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Conventions are the rules that EF core follows automatically to build the database schema from your c# classess\par
+
+\pard\sa200\sl276\slmult1\b Why do we need conventions ?\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Imagine configuring every property manually , that would be repetitive\par
+{\pntext\f2\'B7\tab}Conventions reduce configuration & make development faster\par
+{\pntext\f2\'B7\tab}Ef core follows this order in term of convention\par
+
+\pard\sa200\sl276\slmult1 Conventions\par
+      \f1\u8595?\f0\par
+Data Annotations\par
+      \f1\u8595?\f0\par
+Fluent API\par
+\b primary key convention :-\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 If a property name is Id , then EF core automatically treat it as a primary key\lang9\par
+
+\pard\sa200\sl276\slmult1 EF core automatically detects few things on which it create conventions , & in that no data annotation & fluentapi required\par
+
+\pard\sa200\sl276\slmult1\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
 \b Lecture :- ( Automapper in ASP.NET Core Web API )\par
 
 \pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Let suppose database gives ( User user ) but API mustr return UserDto and for sure both of did not have same properties in which one use a single property which userdto does not use , now what we do is manually copy data into it . This is called manual mapping\par
