@@ -191,8 +191,34 @@ Fluent API\par
 \pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 If a property name is Id , then EF core automatically treat it as a primary key\lang9\par
 
 \pard\sa200\sl276\slmult1 EF core automatically detects few things on which it create conventions , & in that no data annotation & fluentapi required\par
+\par
+\b Lecture :- ( Entity Framework Core with Stored Procedures )\par
 
-\pard\sa200\sl276\slmult1\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Its a precompiled sql query stored inside the database\par
+
+\pard\sa200\sl276\slmult1\b Calling stored procedure in efcore :- \par
+-> using fromsqlraw when no parameters\par
+\b0 var employees =\par
+    await _context.Employees\par
+                  .FromSqlRaw("EXEC GetEmployees")\par
+                  .ToListAsync();\par
+
+\pard\sa200\sl276\slmult1\b -> using fromsqlraw only but when have parameters too \par
+\b0 var employee =\par
+    await _context.Employees\par
+        .FromSqlRaw(\par
+            "EXEC GetEmployeeById @Id = \{0\}",\par
+            id)\par
+        .FirstOrDefaultAsync();\par
+\b -> using fromsqlinterpolated and having parameters too\par
+\b0 var employee =\par
+    await _context.Employees\par
+        .FromSqlInterpolated(\par
+            $"EXEC GetEmployeeById \{id\}")\par
+        .FirstOrDefaultAsync();\par
+\b -> when we wanna update , delete or insert something in db u can use executesqlrawasync , remaining everything is quite same\par
+-> whenn we did not wanna any kind of return then we use executesqlrawasync but if we wanna return something then we use fromsqlraw()\par
+-> Like in fluentapi we use hasnokey() , during dataannotation we can use [keyless]\b0\par
 \par
 \par
 \par
