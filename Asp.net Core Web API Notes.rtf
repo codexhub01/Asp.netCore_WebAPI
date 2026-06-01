@@ -216,31 +216,14 @@ Fluent API\par
         .FromSqlInterpolated(\par
             $"EXEC GetEmployeeById \{id\}")\par
         .FirstOrDefaultAsync();\par
-\b -> when we wanna update , delete or insert something in db u can use executesqlrawasync , remaining everything is quite same\par
--> whenn we did not wanna any kind of return then we use executesqlrawasync but if we wanna return something then we use fromsqlraw()\par
--> Like in fluentapi we use hasnokey() , during dataannotation we can use [keyless]\b0\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\par
-\b Lecture :- ( Automapper in ASP.NET Core Web API )\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 when we wanna update , delete or insert something in db u can use executesqlrawasync , remaining everything is quite same\par
+{\pntext\f2\'B7\tab}when we did not wanna any kind of return then we use executesqlrawasync but if we wanna return something then we use fromsqlraw()\par
+{\pntext\f2\'B7\tab}Like in fluentapi we use hasnokey() , during dataannotation we can use [keyless]\par
+
+\pard\sa200\sl276\slmult1\b Note :- when we use databasefirstapproach , at that time we have to run scaffolding\b0\par
+
+\pard\sa200\sl276\slmult1\b Lecture :- ( Automapper in ASP.NET Core Web API )\par
 
 \pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Let suppose database gives ( User user ) but API mustr return UserDto and for sure both of did not have same properties in which one use a single property which userdto does not use , now what we do is manually copy data into it . This is called manual mapping\par
 {\pntext\f2\'B7\tab}For small project its okay , but in big projects 100+ entities , hundereds of dtos , thousand of mappings which become quite repetitive and hard to maintain\par
@@ -297,8 +280,29 @@ opt => opt.Ignore());\par
 \pard\sa200\sl276\slmult1 .ForMember(dest => dest.Property,\par
 opt => opt.NullSubstitute("Default Value"))\par
 \par
-\par
-\par
+\b Lecture :- ( HTTP Methods in ASP.NET Core Web API )\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 It tells the server what action should be performed on resource\par
+
+\pard\sa200\sl276\slmult1 Get :- retrieve data\par
+Post :- create data\par
+Put :- update entire resource ( update everything )\par
+Patch :- partial update ( only which requires )\par
+delete :- delete resource\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 we need http methods because so that server would know which method need to execute\par
+{\pntext\f2\'B7\tab}Idempotent methods :- means calling the same request multiple times produces same final state\par
+{\pntext\f2\'B7\tab}Example of Idempotent :- \par
+
+\pard\li720\sa200\sl276\slmult1 GET\par
+PUT\par
+DELETE\par
+HEAD\par
+OPTIONS\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Non_idempotent method :- means generate different results always like post method\par
+
+\pard\sa200\sl276\slmult1\par
 \par
 \par
 \par
