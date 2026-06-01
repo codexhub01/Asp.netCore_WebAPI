@@ -68,8 +68,62 @@ Response\par
 \pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 A tool used to document , visualise & test apis\par
 {\pntext\f2\'B7\tab}Basically provides UI for testing apis\par
 {\pntext\f2\'B7\tab}Asp.net core provides built in swagger support ( Swashbuckle package )\par
+{\pntext\f2\'B7\tab}Install-Package Swashbuckle.AspNetCore ( main package ) with the help of which we can use anything services or middleware related to swagger\par
 
 \pard\sa200\sl276\slmult1\par
+\b Lecture :- ( Route Parameters and Query Strings in Routing )\par
+
+\pard\sa200\sl276\slmult1 Route Parameters :-\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 route parameters are values passed as a part of the url path\par
+{\pntext\f2\'B7\tab}Example :- /api/employees/101 ( Single route parameter )\par
+{\pntext\f2\'B7\tab}Example :- /api/employees/217/143 ( Multiple route parameter )\par
+
+\pard\sa200\sl276\slmult1\b Route Parameter With Constraints :-\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 In this we just only add datatype with parameter name inside route attribute\par
+
+\pard\sa200\sl276\slmult1\b Optional Route Parameter :-\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 In which we just just add question mark in a route and passing as a parameter too\par
+
+\pard\sa200\sl276\slmult1\b Query String :-\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Query strng is a key value pair appended after ? in url\par
+{\pntext\f2\'B7\tab}Example :- /api/employees?id=101 ( Single query string )\par
+{\pntext\f2\'B7\tab}Example :- /api/employees?id=101&name=Mayank ( multiple query string ) \par
+
+\pard\sa200\sl276\slmult1\b Explicit query string binding :-\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Basically we just use [Fromquery] with parameter name and its datatype during passing as a parameter\par
+
+\pard\sa200\sl276\slmult1\b Combining route parameters & query string :-\par
+\b0 [HttpGet("\{departmentId\}")]\par
+public IActionResult GetEmployees(\par
+    int departmentId,\par
+    string city)\par
+\{\par
+    return Ok();\par
+\}\b\par
+\b0\par
+
+\pard\sa200\sl276\slmult1\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
+\par
 \b Lecture :- ( Routing in ASP.NET Core Web API )\par
 
 \pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 It's a process of incoming mapping request to specific controller action method\par
@@ -81,9 +135,9 @@ Response\par
 \tab 3. Http Method Routing\par
 \tab 4. Parametrized Routing :- [HttpGet("\{id\}")]\par
 \b\par
-\b0 Lecture :- ( HTTP Status Codes in ASP.NET Core Web API )\par
+Lecture :- ( HTTP Status Codes in ASP.NET Core Web API )\par
 
-\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1 Standard response codes returned by server to indicate request result\par
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Standard response codes returned by server to indicate request result\par
 {\pntext\f2\'B7\tab}basically it tells client whether request succeeded or failed\par
 {\pntext\f2\'B7\tab}200 OK :- request successfull\par
 {\pntext\f2\'B7\tab}201 Created :- resource successfully created\par
@@ -192,8 +246,7 @@ opt => opt.Ignore());\par
 
 \pard\sa200\sl276\slmult1 .ForMember(dest => dest.Property,\par
 opt => opt.NullSubstitute("Default Value"))\par
-
-\pard\sa200\sl276\slmult1\par
+\par
 \par
 \par
 \par

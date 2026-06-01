@@ -1,4 +1,4 @@
-﻿using AutoMapper
+﻿using AutoMapper;
 namespace Asp.net_Core_WebAPI
 {
     public class MappingProfile : Profile

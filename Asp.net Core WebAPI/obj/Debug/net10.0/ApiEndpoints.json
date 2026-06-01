@@ -1,5 +1,90 @@
 [
   {
+    "ContainingType": "Asp.net_Core_WebAPI.Controllers.RouteController",
+    "Method": "Explicit_Route_Parameter",
+    "RelativePath": "api/controller",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userid",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asp.net_Core_WebAPI.Controllers.RouteController",
+    "Method": "M1",
+    "RelativePath": "api/controller/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asp.net_Core_WebAPI.Controllers.RouteController",
+    "Method": "M1",
+    "RelativePath": "api/controller/{id}/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asp.net_Core_WebAPI.Controllers.RouteController",
+    "Method": "Get",
+    "RelativePath": "api/controller/{name}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asp.net_Core_WebAPI.Controllers.RouteController",
+    "Method": "Route_Para_With_Constraints",
+    "RelativePath": "api/controller/{rollno}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "rollno",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Asp.net_Core_WebAPI.Controllers.ProductController",
     "Method": "GetProducts",
     "RelativePath": "api/Product",
