@@ -1,4 +1,5 @@
 using Asp.net_Core_WebAPI;
+using Serilog;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -12,7 +13,7 @@ builder.Services.AddOpenApi();
 builder.Services.AddEndpointsApiExplorer(); // generate edpoints
 builder.Services.AddSwaggerGen(); // generate swagger docs
 builder.Services.AddAutoMapper(typeof(MappingProfile));
-
+builder.Host.UseSerilog();
 var app = builder.Build();
 
 //enabling swagger middleware
