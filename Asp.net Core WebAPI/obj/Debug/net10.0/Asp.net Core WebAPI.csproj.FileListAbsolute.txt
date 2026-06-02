@@ -84,3 +84,13 @@ C:\Users\mayan\Desktop\Asp.netCore_WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\
 C:\Users\mayan\Desktop\Asp.netCore_WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\Asp.net Core WebAPI.pdb
 C:\Users\mayan\Desktop\Asp.netCore_WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\Asp.net Core WebAPI.genruntimeconfig.cache
 C:\Users\mayan\Desktop\Asp.netCore_WebAPI\Asp.net Core WebAPI\obj\Debug\net10.0\ref\Asp.net Core WebAPI.dll
+C:\Users\mayan\Desktop\Asp.netCore_WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\mayan\Desktop\Asp.netCore_WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Serilog.dll
+C:\Users\mayan\Desktop\Asp.netCore_WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Serilog.AspNetCore.dll
+C:\Users\mayan\Desktop\Asp.netCore_WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Serilog.Extensions.Hosting.dll
+C:\Users\mayan\Desktop\Asp.netCore_WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Serilog.Extensions.Logging.dll
+C:\Users\mayan\Desktop\Asp.netCore_WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Serilog.Formatting.Compact.dll
+C:\Users\mayan\Desktop\Asp.netCore_WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Serilog.Settings.Configuration.dll
+C:\Users\mayan\Desktop\Asp.netCore_WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Serilog.Sinks.Console.dll
+C:\Users\mayan\Desktop\Asp.netCore_WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Serilog.Sinks.Debug.dll
+C:\Users\mayan\Desktop\Asp.netCore_WebAPI\Asp.net Core WebAPI\bin\Debug\net10.0\Serilog.Sinks.File.dll

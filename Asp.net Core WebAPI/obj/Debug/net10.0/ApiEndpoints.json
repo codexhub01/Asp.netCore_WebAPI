@@ -1,5 +1,31 @@
 [
   {
+    "ContainingType": "Asp.net_Core_WebAPI.Controllers.HttpMethodController",
+    "Method": "GetMethod",
+    "RelativePath": "api/controller",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asp.net_Core_WebAPI.Controllers.HttpMethodController",
+    "Method": "CreateData",
+    "RelativePath": "api/controller",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "employee",
+        "Type": "Asp.net_Core_WebAPI.Employee",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Asp.net_Core_WebAPI.Controllers.RouteController",
     "Method": "Explicit_Route_Parameter",
     "RelativePath": "api/controller",
@@ -11,6 +37,22 @@
         "Name": "userid",
         "Type": "System.Int32",
         "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Asp.net_Core_WebAPI.Controllers.HttpMethodController",
+    "Method": "GetDataByPara",
+    "RelativePath": "api/controller/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
       }
     ],
     "ReturnTypes": []
