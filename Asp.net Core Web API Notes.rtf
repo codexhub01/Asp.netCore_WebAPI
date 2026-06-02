@@ -332,6 +332,36 @@ OPTIONS\par
 {\pntext\f2\'B7\tab}To create a custom logging provider we create custom logger , custom logger  provider & register provider\par
 
 \pard\sa200\sl276\slmult1\par
+\b Lecture :- ( Filters in ASP.NET Core Web API )\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Filters are the new component that execute code before or after an action method executes\par
+{\pntext\f2\'B7\tab}Suppose every enndpoint needs logging  , so we have to write in each and every method and this is without filter\par
+
+\pard\sa200\sl276\slmult1\par
+\b Authorization Filter :-\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Runs first\par
+{\pntext\f2\'B7\tab}purpose :- Authentication , Authorization , Role Checking & claims validation\par
+
+\pard\sa200\sl276\slmult1\b Action Filter :-\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Runs before & after action\par
+{\pntext\f2\'B7\tab}just use as a attribute before action method for every filter this we do\par
+
+\pard\sa200\sl276\slmult1\par
+\b Service Filter :-\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 use when require dependency injection\par
+
+\pard\sa200\sl276\slmult1\par
+\b Filters VS Middleware :-\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Entire request pipeline vs web api pipeline\par
+{\pntext\f2\'B7\tab}runs before routing vs runs after routing\par
+{\pntext\f2\'B7\tab}handles all request vs only api actions\par
+{\pntext\f2\'B7\tab}global vs controller/ action specific\par
+
+\pard\sa200\sl276\slmult1\par
 
 \pard\sa200\sl276\slmult1\par
 \par
