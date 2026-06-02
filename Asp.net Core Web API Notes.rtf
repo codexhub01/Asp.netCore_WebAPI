@@ -362,6 +362,32 @@ OPTIONS\par
 {\pntext\f2\'B7\tab}global vs controller/ action specific\par
 
 \pard\sa200\sl276\slmult1\par
+\b Lecture :- ( How to Store Password in Hash Format in ASP.NET Core Web API )\par
+Hashing :-\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Hashing is a one way process that converts password into a fixed length string\par
+
+\pard\sa200\sl276\slmult1\b Encryption VS Hashing :-\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 Reversible vs one way\par
+{\pntext\f2\'B7\tab}use encryption/decryption key vs no decryption\par
+{\pntext\f2\'B7\tab}used for data protection vs used for password storage\par
+{\pntext\f2\'B7\tab}original data recovered vs original password can not recovered\par
+
+\pard\sa200\sl276\slmult1\b Asp.netcore passwordhasher :- \b0 microsoft provides passwordhasher<Tuser>\par
+var passwordHasher =\par
+    new PasswordHasher<User>();\par
+\par
+user.PasswordHash =\par
+    passwordHasher.HashPassword(\par
+        user,\par
+        "Mayank123");\par
+\b Salt :-\par
+
+\pard{\pntext\f2\'B7\tab}{\*\pn\pnlvlblt\pnf2\pnindent0{\pntxtb\'B7}}\fi-360\li720\sa200\sl276\slmult1\b0 It's a random data added to password before hashing\b\par
+
+\pard\sa200\sl276\slmult1\b0\par
+\par
 
 \pard\sa200\sl276\slmult1\par
 \par
